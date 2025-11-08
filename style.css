@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.indice{
+    display:flex;
+    list-style-type: none;
+}
+
+.indice li{
+    margin: 0 20px; 
+}
+
+.video-portada{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.video_msj{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30rem;
+    color: white;
+    z-index: 2;
+}
